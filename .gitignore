@@ -1,0 +1,16 @@
+# 嵌套 git 仓库（backend 内空的 .git，排除避免被识别为子模块）
+backend/.git/
+
+# IDE 配置
+.idea/
+.vscode/
+*.iml
+
+# 构建产物
+target/
+build/
+dist/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
